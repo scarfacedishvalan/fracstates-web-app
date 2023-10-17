@@ -144,11 +144,11 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #13216e;
+  color: #159d6f;
   font-size: 18px;
   font-weight: 400;
   line-height: 0px;
-  background-color: #ffffff;
+  background-color: #ebeff0;
   overflow-x: hidden;
 }
 
@@ -3079,7 +3079,7 @@ header {
 .hero {
   padding-top: 272px;
   padding-bottom: 270px;
-  background-color: #f4f6ff;
+  background-color: #daf8da;
   background-size: contain;
   background-position: left top 60px;
 }
@@ -3956,6 +3956,9 @@ header {
   content: "\e3af";
 }
 
+.featured__properties.section__space {
+  background-color: #daf8da; /* Replace with your desired color value */
+}
 .featured__properties__area .title__with__cta {
   margin-bottom: 60px;
 }
@@ -4650,6 +4653,9 @@ header {
     font-size: 18px;
   }
 }
+.profit.section__space {
+  background-color: #daf8da; /* Replace with your desired color value */
+}
 
 .profit .section__header {
   margin-bottom: 60px;
@@ -4781,12 +4787,21 @@ header {
     text-align: center;
   }
 }
-
+.video {
+  background-color: #daf8da;
+}
 .start {
   padding-bottom: 260px;
-  background-color: #f4f6ff;
+  background-color: #daf8da;
 }
 
+.market {
+  padding-bottom: 260px;
+  background-color: #daf8da;
+}
+.start__area.wow.fadeInUp {
+  background-color: #daf8da; /* Replace with your desired color value */
+}
 .start .section__header {
   margin-bottom: 60px;
 }
@@ -8886,7 +8901,7 @@ header {
 
 .featured__large__post {
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #c3f3c7;
   -webkit-box-shadow: 0px 4px 24px 0px rgba(19, 33, 110, 0.25);
           box-shadow: 0px 4px 24px 0px rgba(19, 33, 110, 0.25);
   border-radius: 10px;
