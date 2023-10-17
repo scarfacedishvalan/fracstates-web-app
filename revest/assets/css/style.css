@@ -5024,7 +5024,14 @@ header {
     content: none;
   }
 }
-
+.blank-space-video {
+  height: 200px;
+  background-color: #daf8da;
+}
+.blank-space-video-end {
+  height: 100px;
+  background-color: #daf8da;
+}
 .video {
   position: relative;
   top: -180px;
