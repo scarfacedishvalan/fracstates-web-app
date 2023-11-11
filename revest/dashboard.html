@@ -45,9 +45,12 @@
     <header class="dashboard-header">
         <div class="container">
             <div class="dashboard-header__area">
-                <a href="index.html" class="header-logo">
-                    <img src="assets/images/logo.png" alt="Logo" class="logo" />
-                </a>
+                <div>
+                    <h5 class="investo">My Portfolio</h5>
+                </div>
+                <!--a href="index.html">
+                    <img src="assets/images/logo.png" alt="Revest" class="logo" />
+                </a-->
                 <div class="dashboard-header__area-content">
                     <a class="button button--effect" href="investment.html">
                         <img src="assets/images/direction.png" alt="Investment" /> New Investments
@@ -133,8 +136,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="withdraw.html">
-                                            <img src="assets/images/icons/withdraw.png" alt="Withdraw" /> Withdraw
+                                        <a href="redeem.html">
+                                            <img src="assets/images/icons/withdraw.png" alt="Redeem" /> Redeem
                                         </a>
                                     </li>
                                     <li>
@@ -178,25 +181,22 @@
                                             <div class="balance-report__wrapper dashboard-single__box">
                                                 <div class="balance-report">
                                                     <div>
-                                                        <h4>€537,00</h4>
-                                                        <p class="secondary">Monthly Income</p>
+                                                        <h4>0.00</h4>
+                                                        <div class="type-income">
+                                                            <select class="select-balance-report">
+                                                                <option value="Annual">Monthly</option>
+                                                                <option value="Monthly">Annual</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
-                                                    <div class="dashboard-balance-report">
-                                                        <select class="select-balance-report">
-                                                            <option value="last">Last Month</option>
-                                                            <option value="january">January</option>
-                                                            <option value="february">February</option>
-                                                            <option value="march">March</option>
-                                                            <option value="april">April</option>
-                                                            <option value="may">May</option>
-                                                            <option value="june">June</option>
-                                                            <option value="july">July</option>
-                                                            <option value="august">August</option>
-                                                            <option value="september">September</option>
-                                                            <option value="october">October</option>
-                                                            <option value="november">November</option>
-                                                            <option value="december">December</option>
-                                                        </select>
+                                                    <div>
+                                                        <h4>0.00 %</h4>
+                                                        <div class="type-income">
+                                                            <select class="select-balance-report">
+                                                                <option value="XIRR">XIRR</option>
+                                                                <option value="CAGR">CAGR</option>
+                                                            </select>
+                                                        </div>                                                        
                                                     </div>
                                                 </div>
                                                 <hr />
@@ -204,34 +204,34 @@
                                                     <div class="group-inner">
                                                         <p>Amount Invested</p>
                                                         <h6><img src="assets/images/icons/invested.png"
-                                                                alt="Invested" />€108.934,00</h6>
+                                                                alt="Invested" />0.00</h6>
                                                     </div>
                                                     <div class="group-inner">
-                                                        <p>Total Earnings</p>
+                                                        <p>Current Value</p>
                                                         <h6><img src="assets/images/icons/earned.png"
-                                                                alt="Earned" />€12.606,00</h6>
+                                                                alt="Earned" />0.00</h6>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="dashboard-single__box">
-                                                <h5 class="investo">Investment Chart</h5>
+                                                <h5 class="investo">Rental Income Chart</h5>
                                                 <div id="investmentChart"></div>
                                             </div>
                                             <div class="dashboard-single__box">
                                                 <div class="intro">
-                                                    <h5>My Investments</h5>
+                                                    <h5>My Holdings</h5>
                                                     <a href="investment.html">Show All<i
                                                             class="fa-solid fa-arrow-right-long"></i></a>
                                                 </div>
                                                 <div class="property-wrap">
                                                     <div class="poster">
                                                         <a href="investment.html">
-                                                            <img src="assets/images/los-two.png" alt="Los Angeles" />
+                                                            <img src="assets/images/property/retail-1.jpg" alt="Investment Details" />
                                                         </a>
                                                     </div>
-                                                    <h4><a href="investment.html">Los Angeles</a></h4>
-                                                    <p><i class="fa-solid fa-location-dot"></i>8706 Herrick Ave, Los
-                                                        Angeles</p>
+                                                    <h4><a href="investment.html">Investment Details</a></h4>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Investment
+                                                        Location</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,31 +240,31 @@
                                         <div class="main__content-dashboard__sidebar">
                                             <div class="dashboard-single__box card-alt">
                                                 <div class="card-tab-btn__wrapper">
-                                                    <a href="#bank" class="card-tab-btn">Bank Account</a>
-                                                    <a href="#credit" class="card-tab-btn card-tab-btn-active">Credit
-                                                        Card</a>
+                                                    <a href="#bank" class="card-tab-btn">Primary Bank Account Details</a>
+                                                    <!-- a href="#credit" class="card-tab-btn card-tab-btn-active">Credit
+                                                        Card</a-->
                                                 </div>
                                                 <div class="card-tab-wrp" id="bank">
                                                     <div class="card-tab-content">
-                                                        <a href="javascipt:void(0)" class="add-card"><i
-                                                                class="fa-solid fa-plus"></i></a>
+                                                        <!--a href="javascipt:void(0)" class="add-card"><i
+                                                                class="fa-solid fa-plus"></i></a-->
                                                         <div class="card-content">
-                                                            <p class="secondary card-no">Card No.</p>
+                                                            <p class="secondary card-no">HDFC Account Number</p>
                                                             <p>**** **** **** 4567</p>
                                                             <div class="group">
                                                                 <div class="group-inner">
-                                                                    <p class="secondary">EXPIRY DATE </p>
-                                                                    <p class="secondary">09/24</p>
+                                                                    <p class="secondary">IFSC</p>
+                                                                    <p class="secondary">HDFC0004860</p>
                                                                 </div>
                                                                 <div class="group-inner">
-                                                                    <p class="secondary">CURRENCY</p>
-                                                                    <p class="secondary">USD</p>
+                                                                    <p class="secondary">KYC STATUS</p>
+                                                                    <p class="secondary">Verified</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card-tab-wrp" id="credit">
+                                                <!--div class="card-tab-wrp" id="credit">
                                                     <div class="card-tab-content">
                                                         <a href="javascipt:void(0)" class="add-card"><i
                                                                 class="fa-solid fa-plus"></i></a>
@@ -338,15 +338,35 @@
                                                         </div>
                                                     </div>
                                                     <div class="slick-slider-dots"></div>
-                                                </div>
+                                                </div-->
                                             </div>
                                             <div class="dashboard-single__box">
-                                                <div class="intro">
+                                                <!--div class="intro">
                                                     <h5>Last Income</h5>
                                                     <a href="withdraw.html">Show All<i
                                                             class="fa-solid fa-arrow-right-long"></i></a>
+                                                </div-->
+                                                <div class="last-income">
+                                                    <div class="group">
+                                                        <!--img src="assets/images/income.png" alt="Last Income" /-->
+                                                        <div>
+                                                            <h6></h6>
+                                                            <p class="secondary"></p>
+                                                        </div>
+                                                    </div>
+                                                    <!--h6>No Transactions</h6-->
                                                 </div>
                                                 <div class="last-income">
+                                                    <div class="group">
+                                                        <!--img src="assets/images/income.png" alt="Last Income" /-->
+                                                        <div>
+                                                            <h6>Recipient/Creditor | Transaction Description</h6>
+                                                            <p class="secondary">Date</p>
+                                                        </div>
+                                                    </div>
+                                                    <h6>Value</h6>
+                                                </div>
+                                                <!--div class="last-income">
                                                     <div class="group">
                                                         <img src="assets/images/income.png" alt="Last Income" />
                                                         <div>
@@ -355,27 +375,7 @@
                                                         </div>
                                                     </div>
                                                     <h6>€302,50</h6>
-                                                </div>
-                                                <div class="last-income">
-                                                    <div class="group">
-                                                        <img src="assets/images/income.png" alt="Last Income" />
-                                                        <div>
-                                                            <h6>Gerolstein | Am Rasbach 1-17</h6>
-                                                            <p class="secondary">18.03.2022</p>
-                                                        </div>
-                                                    </div>
-                                                    <h6>€302,50</h6>
-                                                </div>
-                                                <div class="last-income">
-                                                    <div class="group">
-                                                        <img src="assets/images/income.png" alt="Last Income" />
-                                                        <div>
-                                                            <h6>Gerolstein | Am Rasbach 1-17</h6>
-                                                            <p class="secondary">18.03.2022</p>
-                                                        </div>
-                                                    </div>
-                                                    <h6>€302,50</h6>
-                                                </div>
+                                                </div-->
                                             </div>
                                             <div class="dashboard-single__box">
                                                 <div class="intro">
@@ -386,12 +386,12 @@
                                                 <div class="new-invest">
                                                     <div class="poster">
                                                         <a href="properties.html">
-                                                            <img src="assets/images/san-two.png" alt="San Francisco" />
+                                                            <img src="assets/images/property/office-space1.jpg" alt="San Francisco" />
                                                         </a>
                                                     </div>
                                                     <div class="invest-content">
                                                         <div class="item__head__left">
-                                                            <h6>Los Angeles</h6>
+                                                            <h6>Investment Opportunity 1</h6>
                                                             <div class="progress__type progress__type--two">
                                                                 <div class="progress">
                                                                     <div class="progress-bar" role="progressbar"
@@ -400,12 +400,12 @@
                                                                 </div>
                                                                 <div class="project__info">
                                                                     <p class="project__has"><span
-                                                                            class="project__has__investors">119
-                                                                            Investors</span> | <span
+                                                                            class="project__has__investors">
+                                                                            Investors</span> | <!--span
                                                                             class="project__has__investors__amount"><i
-                                                                                class="fa-solid fa-dollar-sign"></i>
-                                                                            4,94,196</span> <span
-                                                                            class="project__has__investors__percent">(54.73%)</span>
+                                                                                class="fa-solid fa-dollar-sign"></i-->
+                                                                            Value</span> <span
+                                                                            class="project__has__investors__percent">(Funded Status)</span>
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -415,12 +415,12 @@
                                                 <div class="new-invest">
                                                     <div class="poster">
                                                         <a href="properties.html">
-                                                            <img src="assets/images/san-two.png" alt="San Francisco" />
+                                                            <img src="assets/images/property/retail-1.jpg" alt="San Francisco" />
                                                         </a>
                                                     </div>
                                                     <div class="invest-content">
                                                         <div class="item__head__left">
-                                                            <h6>Los Angeles</h6>
+                                                            <h6>Investment Opportunity 2</h6>
                                                             <div class="progress__type progress__type--two">
                                                                 <div class="progress">
                                                                     <div class="progress-bar" role="progressbar"
@@ -429,27 +429,27 @@
                                                                 </div>
                                                                 <div class="project__info">
                                                                     <p class="project__has"><span
-                                                                            class="project__has__investors">119
-                                                                            Investors</span> | <span
+                                                                            class="project__has__investors">
+                                                                            Investors</span> | <!--span
                                                                             class="project__has__investors__amount"><i
-                                                                                class="fa-solid fa-dollar-sign"></i>
-                                                                            4,94,196</span> <span
-                                                                            class="project__has__investors__percent">(54.73%)</span>
+                                                                                class="fa-solid fa-dollar-sign"></i-->
+                                                                            Value</span> <span
+                                                                            class="project__has__investors__percent">(Funded Status)</span>
                                                                     </p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="new-invest">
+                                                <!--div class="new-invest">
                                                     <div class="poster">
                                                         <a href="properties.html">
-                                                            <img src="assets/images/san-two.png" alt="San Francisco" />
+                                                            <img src="assets/images/property/retail-1.jpg" alt="San Francisco" />
                                                         </a>
                                                     </div>
                                                     <div class="invest-content">
                                                         <div class="item__head__left">
-                                                            <h6>Los Angeles</h6>
+                                                            <h6>Investment Opportunity 3</h6>
                                                             <div class="progress__type progress__type--two">
                                                                 <div class="progress">
                                                                     <div class="progress-bar" role="progressbar"
@@ -458,18 +458,18 @@
                                                                 </div>
                                                                 <div class="project__info">
                                                                     <p class="project__has"><span
-                                                                            class="project__has__investors">119
+                                                                            class="project__has__investors">
                                                                             Investors</span> | <span
                                                                             class="project__has__investors__amount"><i
                                                                                 class="fa-solid fa-dollar-sign"></i>
-                                                                            4,94,196</span> <span
-                                                                            class="project__has__investors__percent">(54.73%)</span>
+                                                                            Value</span> <span
+                                                                            class="project__has__investors__percent">(Funded Status)</span>
                                                                     </p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div-->
                                             </div>
                                         </div>
                                     </div>
@@ -490,9 +490,9 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-4 col-xl-4">
                         <div class="footer__intro">
-                            <a href="index.html">
+                            <!--a href="index.html">
                                 <img src="assets/images/logo.png" alt="Revest" class="logo" />
-                            </a>
+                            </a-->
                             <p><i class="fa-solid fa-location-dot"></i>1134 W Hubbard St. Floor 3, Chicago, IL, 60642,
                                 USA</p>
                             <p><i class="fa-solid fa-phone"></i>(814) 277-4833</p>

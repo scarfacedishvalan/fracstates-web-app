@@ -130,13 +130,13 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="transaction.html" class="sidenav__active">
+                                        <a href="transaction.html">
                                             <img src="assets/images/icons/transactions.png" alt="Transactions" />
                                             Transactions
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="redeem.html">
+                                        <a href="redeem.html" class="sidenav__active">
                                             <img src="assets/images/icons/withdraw.png" alt="Redeem" /> Redeem
                                         </a>
                                     </li>
@@ -176,41 +176,60 @@
                             </div>
                             <div class="main__content-dashboard">
                                 <div class="breadcrumb-dashboard">
-                                    <h5>Transactions</h5>
+                                    <h5>Redeem</h5>
                                     <div>
                                         <a href="index.html">Home</a>
                                         <i class="fa-solid fa-arrow-right-long"></i>
-                                        <a href="javascript:void(0)">Transactions</a>
+                                        <a href="javascript:void(0)">Redeem</a>
                                     </div>
                                 </div>
-                                <div class="investment-table investment-table-two">
-                                    <div class="intro">
-                                        <h5>Transactions</h5>
-                                        <h6>Total Number of Transactions <span>(10)</span></h6>
+                                <div class="withdraw-funds">
+                                    <div class="withdraw-funds__inner">
+                                        <h5>Redeem Your Investments</h5>
+                                        <p>Use the form below to check the approximate value of the securities held</p>
+                                        <form action="#" method="post">
+                                            <div class="input input--secondary">
+                                                <label for="methodSelect">Choose your Investment</label>
+                                                <select class="type__select" id="methodSelect">
+                                                    <option value="Inv1">Investment 1</option>
+                                                    <option value="Inv2">Investment 2</option>
+                                                </select>
+                                            </div>
+                                            <div class="input input--secondary">
+                                                <label for="tokensAvailable">Tokens Available</label>
+                                                <input type="number" name="available_amount" id="availableAmount"
+                                                    placeholder="0" required="required" />
+                                            </div>
+                                            <div class="input input--secondary">
+                                                <label for="tokensRedeem">Tokens to redeem</label>
+                                                <input type="number" name="withdraw_amount" id="withdrawAmount"
+                                                    placeholder="0" required="required" />
+                                            </div>
+                                            <div class="input input--secondary">
+                                                <label for="tokensRedeem">Calculated Value</label>
+                                                <input type="number" name="withdraw_amount" id="withdrawAmount"
+                                                    placeholder="0" required="required" />
+                                            </div>
+                                            <div class="input input--secondary">
+                                                <label for="tokensRedeem">Approximate Exit Load</label>
+                                                <input type="number" name="withdraw_amount" id="withdrawAmount"
+                                                    placeholder="0" required="required" />
+                                            </div>
+                                            <div class="input input--secondary">
+                                                <label for="tokensRedeem">Net Redemption Value (Estimated)</label>
+                                                <input type="number" name="withdraw_amount" id="withdrawAmount"
+                                                    placeholder="0" required="required" />
+                                            </div>
+                                            </div>
+                                            <button type="submit" class="button button--effect">Redeem</button>
+                                        </form>
                                     </div>
-                                    <div class="table-wrapper">
-                                        <table>
-                                            <tr>
-                                                <th>Project</th>
-                                                <th>Amount Invested</th>
-                                                <th>Payment Type</th>
-                                                <th>Date / Time</th>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="assets/images/table-img.png" alt="Investment" />
-                                                    Property Description
-                                                </td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                        </table>
-                                        <div>
-                                            <p>Download transation details</p>
-                                            <a href="javascript:void(0)" class="button">Transactions.xlsx<i
-                                                    class="fa-solid fa-download"></i></a>
-                                        </div>
+                                </div>
+                                <div class="breadcrumb-dashboard">
+                                    <h5>Unsure about Redemption? Avail Loan on your investments instead!</h5>
+                                    <div>
+                                        <button type="submit" class="button button--effect">Request Callback</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
