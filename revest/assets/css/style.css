@@ -3964,6 +3964,18 @@ header {
   background-color: #daf8da; /* Replace with your desired color value */
 }
 
+.dashboard.section__space__bottom{
+  background-color: #daf8da; /* Replace with your desired color value */
+}
+
+.footer.dashboard-footer.pos__rel.over__hi{
+  background-color: #daf8da; /* Replace with your desired color value */
+}
+
+.dashboard-header{
+  background-color: #daf8da; /* Replace with your desired color value */
+}
+
 .featured__properties__area .title__with__cta {
   margin-bottom: 60px;
 }
