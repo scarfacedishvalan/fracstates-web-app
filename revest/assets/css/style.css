@@ -3959,6 +3959,11 @@ header {
 .featured__properties.section__space {
   background-color: #daf8da; /* Replace with your desired color value */
 }
+
+.why__invest__two.section__space {
+  background-color: #daf8da; /* Replace with your desired color value */
+}
+
 .featured__properties__area .title__with__cta {
   margin-bottom: 60px;
 }
